@@ -1,0 +1,51 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 30px;
+  margin: 0;
+
+  color: #000000;
+  line-height: 32px;
+  font-size: 18px;
+  font-family: Arial, sans-serif;
+
+  background-color: #fde74c;
+  transition: background-color 1s ease;
+}
+
+.color-one {
+  background-color: #9bc53d;
+}
+
+.color-two {
+  background-color: #636363;
+}
+
+.main-content {
+  width: 420px;
+  margin: 0 auto;
+}
+
+.main-content p {
+  padding: 20px;
+}
+
+.list li {
+  padding-left: 7px;
+  margin-bottom: 15px;
+}
+
+.box-1 {
+  font-weight: bold;
+  background-color: #333;
+  color: #fff;
+}
+
+.box-2 {
+  background-color: #1581af;
+  color: #ffffff;
+}
